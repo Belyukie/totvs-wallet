@@ -1,0 +1,11 @@
+<Particles id="tsparticles" [options]="particlesOptions"> </Particles>
+<div class="home">
+  <mat-progress-bar *ngIf="isBusy" mode="indeterminate"></mat-progress-bar>
+
+  <product-list
+    *ngIf="!isBusy"
+    [user]="user"
+    [products]="products"
+    (onRescue)="showConfirmRescueModal($event)"
+  ></product-list>
+</div>

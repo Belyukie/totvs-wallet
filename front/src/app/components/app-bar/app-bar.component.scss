@@ -1,0 +1,55 @@
+.app-bar {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  padding: 0 5vw 0 5vw;
+  height: 10%;
+  width: 100%;
+  color: white;
+  background-color: #009ec0;
+
+  img {
+    height: 7vh;
+  }
+
+  p {
+    font-weight: bold;
+
+    @media screen and (min-width: 601px) {
+      font-size: 20px;
+    }
+
+    @media screen and (max-width: 600px) {
+      font-size: 10px;
+    }
+  }
+
+  .app-name {
+    margin: 0 0 0 10px;
+
+    @media screen and (min-width: 601px) {
+      font-size: 30px;
+    }
+
+    @media screen and (max-width: 600px) {
+      font-size: 20px;
+    }
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  .user-data {
+    .user {
+      margin: 0px 20px 0px 0px;
+    }
+
+    .balance {
+      padding: 0px 10px 0px 10px;
+      height: 8%;
+      border-radius: 50px;
+      background: #fcc704;
+    }
+  }
+}

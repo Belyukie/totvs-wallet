@@ -1,0 +1,94 @@
+@import "~@angular/material/theming";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+$mat-primary: (
+  50: #009ec0,
+  100: #009ec0,
+  200: #009ec0,
+  300: #009ec0,
+  400: #009ec0,
+  500: #009ec0,
+  600: #009ec0,
+  700: #009ec0,
+  800: #009ec0,
+  900: #009ec0,
+  A100: #009ec0,
+  A200: #009ec0,
+  A400: #009ec0,
+  A700: #009ec0,
+  contrast: (
+    50: #009ec0,
+    100: #009ec0,
+    200: #009ec0,
+    300: #009ec0,
+    400: #009ec0,
+    500: #009ec0,
+    600: #009ec0,
+    700: #009ec0,
+    800: #009ec0,
+    900: #009ec0,
+    A100: #009ec0,
+    A200: #009ec0,
+    A400: #009ec0,
+    A700: #009ec0,
+  ),
+);
+
+$mat-accent: (
+  50: #ffffff,
+  100: #ffffff,
+  200: #ffffff,
+  300: #ffffff,
+  400: #ffffff,
+  500: #ffffff,
+  600: #ffffff,
+  700: #ffffff,
+  800: #ffffff,
+  900: #ffffff,
+  A100: #ffffff,
+  A200: #ffffff,
+  A400: #ffffff,
+  A700: #ffffff,
+  contrast: (
+    50: #ffffff,
+    100: #ffffff,
+    200: #ffffff,
+    300: #ffffff,
+    400: #ffffff,
+    500: #ffffff,
+    600: #ffffff,
+    700: #ffffff,
+    800: #ffffff,
+    900: #ffffff,
+    A100: #ffffff,
+    A200: #ffffff,
+    A400: #ffffff,
+    A700: #ffffff,
+  ),
+);
+
+$primary: mat-palette($mat-primary);
+$accent: mat-palette($mat-accent);
+
+$theme: mat-light-theme($primary, $accent);
+
+@include angular-material-theme($theme);
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.mat-progress-bar-fill::after {
+  background-color: #009ec0;
+}
+
+.mat-progress-bar-buffer {
+  background-color: white;
+}
+button:focus,
+button:active:focus,
+button.active:focus {
+  outline: none !important;
+  outline-style: none !important;
+}

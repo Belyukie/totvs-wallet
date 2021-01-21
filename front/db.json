@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 4,
+      "title": "Agenda",
+      "image": "https://www.freeshop.com.br/brindes/fotos/produtos/zoom/2315/bloco-de-anotacoes-com-pautas-personalizado-sg5335.jpg",
+      "price": 30
+    },
+    {
+      "id": 1,
+      "title": "Protetor de webcam",
+      "image": "https://www.reddfortaleza.com.br/imagem.php?img=produtos/grande/5902.jpg",
+      "price": 25
+    },
+    {
+      "id": 2,
+      "title": "Minibloco de anotações",
+      "image": "https://static2.minhalojanouol.com.br/ios/produto/20210114145109_5419994581_D.png",
+      "price": 10
+    },
+    {
+      "id": 3,
+      "title": "Porta cartão",
+      "image": "https://www.redd.com.br/imagem/porta-cartao-de-silicone-para-celular-com-suporte-personalizado-pg6506.jpg",
+      "price": 20
+    },
+    {
+      "id": 5,
+      "title": "Smartwatch",
+      "image": "https://static2.minhalojanouol.com.br/ios/produto/20210114150456_7715992285_D.png",
+      "price": 90
+    },
+    {
+      "id": 6,
+      "title": "Porta cartão",
+      "image": "https://static2.minhalojanouol.com.br/ios/produto/20210114145946_7471992529_D.png",
+      "price": 15
+    },
+    {
+      "id": 7,
+      "title": "Mascara",
+      "image": "https://static2.minhalojanouol.com.br/ios/produto/20210114144908_1601998399_D.png",
+      "price": 30
+    },
+    {
+      "id": 8,
+      "title": "Mousepad",
+      "image": "https://www.redd.com.br/imagem/mouse-pad-personalizado-pm5739-1.jpg",
+      "price": 35
+    },
+    {
+      "id": 0,
+      "title": "Day off",
+      "image": "https://static6.depositphotos.com/1005155/629/i/600/depositphotos_6291421-stock-photo-day-off-reminder.jpg",
+      "price": 150
+    },
+    {
+      "id": 9,
+      "title": "Ingresso Beach Park",
+      "image": "https://www.pousadaceara.com.br/images/xingresso-beach-park.jpg.pagespeed.ic.4L2CthHn7c.webp",
+      "price": 500
+    },
+    {
+      "id": 10,
+      "title": "Voucher 100,00 Ifood",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_789756-MLB44546520021_012021-O.webp",
+      "price": 100
+    },
+    {
+      "id": 11,
+      "title": "Vale 300,00",
+      "image": "https://www.dollcollector.com.br/fotos/grande/1325fg1/cartao-presente-300-reais.jpg",
+      "price": 300
+    },
+    {
+      "id": 12,
+      "title": "Mouse pad gamer",
+      "image": "https://static2.minhalojanouol.com.br/ios/produto/20210115120307_9396990604_D.png",
+      "price": 100
+    },
+    {
+      "id": 13,
+      "title": "Travesseiro de viagem",
+      "image": "https://static2.minhalojanouol.com.br/ios/produto/20210114151205_2425997575_D.png",
+      "price": 100
+    },
+    {
+      "id": 14,
+      "title": "Mouse",
+      "image": "https://static2.minhalojanouol.com.br/ios/produto/20210118100827_2264997736_D.jpg",
+      "price": 100
+    }
+  ]
+}

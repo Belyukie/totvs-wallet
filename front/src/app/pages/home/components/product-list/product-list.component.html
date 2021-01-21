@@ -1,0 +1,23 @@
+<div class="d-flex justify-content-center flex-wrap">
+  <mat-card
+    *ngFor="let product of products"
+    class="col-sm-12 col-md-4 col-lg-3 col-xl-3 product-card"
+  >
+    <div class="image">
+      <img mat-card-image [src]="product.image" [alt]="product.title" />
+    </div>
+    <mat-card-content>
+      <p align="center">{{ product.title }} - {{ product.price }} moedas</p>
+    </mat-card-content>
+    <div class="d-flex justify-content-center">
+      <button
+        mat-stroked-button
+        color="primary"
+        [disabled]="product.price > user?.balance"
+        (click)="rescueProduct(product)"
+      >
+        RESGATAR
+      </button>
+    </div>
+  </mat-card>
+</div>
