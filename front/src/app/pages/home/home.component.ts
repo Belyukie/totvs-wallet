@@ -155,7 +155,7 @@ export class HomeComponent {
    * @param {number} quantity Quantidade de produtos
    * @returns {Promise<void>} Resultado do resgate
    */
-  private _rescueProduct = (
+  public _rescueProduct = (
     product: Product,
     quantity: number
   ): Promise<void> =>

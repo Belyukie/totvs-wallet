@@ -4,10 +4,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:server": "npm run webdriver && ng serve",
+    "webdriver": "webdriver-manager update && webdriver-manager start --detach",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "protractor e2e/protractor.conf.js --disableChecks --baseUrl='http://localhost:4200/'"
   },
   "private": true,
   "dependencies": {

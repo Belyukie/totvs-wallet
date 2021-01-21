@@ -1,11 +1,30 @@
-import { browser, by, element } from 'protractor';
+import { browser, by, element } from "protractor";
 
 export class AppPage {
-  navigateTo() {
-    return browser.get('/');
+  async navigateTo() {
+    return await browser.get("/");
   }
 
   getParagraphText() {
-    return element(by.css('app-root h1')).getText();
+    return element(by.css("app-root h1")).getText();
+  }
+
+  getResgate() {
+    return element.all(by.css(".mat-button-wrapper:nth-child(1)"));
+  }
+
+  getBalance() {
+    return element.all(by.css(".protractor-marcio"));
+  }
+
+  getAppName() {
+    return element.all(by.css(".app-name"));
+  }
+
+  getConfirmacao() {
+    return element.all(by.css("confirm-button"));
+  }
+  getCancelar() {
+    return element.all(by.css(".mat-warn"));
   }
 }

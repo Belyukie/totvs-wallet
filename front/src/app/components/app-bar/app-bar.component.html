@@ -4,7 +4,7 @@
   <div class="spacer"></div>
   <div *ngIf="user | async" class="d-flex align-items-center user-data">
     <p class="user">{{ (user | async)?.name }}</p>
-    <p class="d-flex align-items-center balance m-0">
+    <p class="d-flex align-items-center balance m-0" id="protractor-marcio">
       {{ (user | async)?.balance }} totvscoins
     </p>
   </div>
