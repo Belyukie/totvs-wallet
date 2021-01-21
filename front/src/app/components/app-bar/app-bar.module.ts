@@ -7,4 +7,5 @@ import { AppBarComponent } from "./app-bar.component";
   declarations: [AppBarComponent],
   exports: [AppBarComponent],
 })
+
 export class AppBarModule {}
