@@ -1,5 +1,6 @@
 package com.mycompany.totvscoins;
 import java.io.Serializable;
+import java.sql.Date;
 
 public class Movimentacao implements Serializable {
 
@@ -7,7 +8,7 @@ public class Movimentacao implements Serializable {
     private Integer cod_integrante;
     private Integer cod_prod;
     private Integer quantidade;
-    //private Date dtBaixa;
+    private Date dtBaixa;
     private String D_E_L_E_T_;
 
     public Movimentacao() {
@@ -17,11 +18,11 @@ public class Movimentacao implements Serializable {
         this.cod_integrante = cod_integrante;
     }
 
-    public Movimentacao(Integer cod_integrante, String D_E_L_E_T_, Integer quantidade, /*Date dtBaixa,*/ Integer cod_prod) {
+    public Movimentacao(Integer cod_integrante, String D_E_L_E_T_, Integer quantidade, Date dtBaixa, Integer cod_prod) {
         this.cod_integrante = cod_integrante;
         this.cod_prod = cod_prod;
         this.quantidade = quantidade;
-       // this.dtBaixa = dtBaixa;
+        this.dtBaixa = dtBaixa;
         this.D_E_L_E_T_ = D_E_L_E_T_;
 
     }
@@ -86,17 +87,17 @@ public class Movimentacao implements Serializable {
     /**
      * @return the cod_integrante
      */
-   /* public Date getdtBaixa() {
+    public Date getdtBaixa() {
         return dtBaixa;
     }
-*/
+
     /**
      * @param cod_integrante the cod_integrante to set
      */
-    /*
+    
     public void setdtBaixa(Date date) {
         this.dtBaixa = date;
     }
-*/
+
     
 }

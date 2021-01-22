@@ -10,11 +10,11 @@ export class AppPage {
   }
 
   getResgate() {
-    return element.all(by.css(".mat-button-wrapper:nth-child(1)"));
+    return element.all(by.css(".mat-button-wrapper:nth-child(1)")).first();
   }
 
   getBalance() {
-    return element.all(by.css(".protractor-marcio"));
+    return element.all(by.css("#protractor-marcio"));
   }
 
   getAppName() {
@@ -22,9 +22,9 @@ export class AppPage {
   }
 
   getConfirmacao() {
-    return element.all(by.css("confirm-button"));
+    return element.all(by.css(".protractor-confirma")).first();
   }
   getCancelar() {
-    return element.all(by.css(".mat-warn"));
+    return element.all(by.css("mat-warn"));
   }
 }
